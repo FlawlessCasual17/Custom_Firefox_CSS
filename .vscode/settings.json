@@ -2,6 +2,16 @@
     "cSpell.words": [
         "uidensity"
     ],
+    // PowerShell
+    "[powershell]": {
+        "editor.formatOnSave": true
+    },
+    "powershell.codeFormatting.preset": "OTBS",
+    "powershell.codeFormatting.alignPropertyValuePairs": true,
+    "powershell.codeFormatting.ignoreOneLineBlock": true,
+    "powershell.integratedConsole.startInBackground": true,
+    "powershell.scriptAnalysis.settingsPath": "PSScriptAnalyzerSettings.psd1",
+    "powershell.scriptAnalysis.enable": true,
     "editor.formatOnSave": false,
     "files.enableTrash": false,
     // Markdown
