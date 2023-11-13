@@ -1,22 +1,22 @@
 .tabbrowser-tab {
-    visibility: hidden;
+    visibility: hidden
 }
 
 .titlebar-button {
-    height: 27px !important;
+    height: 27px !important
 }
 
 #nav-bar {
     margin-top: -42px;
-    box-shadow: none !important;
+    box-shadow: none !important
 }
 
 [uidensity="compact"]:root .titlebar-button {
-    height: 32px !important;
+    height: 32px !important
 }
 
 [uidensity="compact"]:root #nav-bar {
-    margin-top: -32px;
+    margin-top: -32px
 }
 
 #titlebar-spacer {
@@ -33,7 +33,7 @@
 
 #main-window[inFullscreen="true"] #sidebar-box,
 #main-window[inFullscreen="true"] #sidebar-box+splitter {
-    visibility: collapse;
+    visibility: collapse
 }
 
 #sidebar-box {
@@ -46,7 +46,7 @@
     border-right: 1px solid var(--sidebar-border-color);
     z-index: 2147483647 !important;
     transition-duration: 0.73s;
-    transition-delay: 0.50s;
+    transition-delay: 0.50s
 }
 
 #sidebar-box:hover {
@@ -55,23 +55,23 @@
     min-width: var(--sidebar-visible-width) !important;
     max-width: var(--sidebar-visible-width) !important;
     transition-duration: 1s;
-    transition-delay: 0.82s;
+    transition-delay: 0.82s
 }
 
 #sidebar {
-    opacity: 1 !important;
+    opacity: 1 !important
 }
 
 #sidebar-box:hover #sidebar {
-    opacity: 1 !important;
+    opacity: 1 !important
 }
 
 /* #sidebar-header is hidden by default, change "none" to "inherit" to restore it. */
 #sidebar-header {
-    display: none !important;
+    display: none !important
 }
 
 /* #sidebar-splitter styles the divider between the sidebar and the rest of the browser. */
 #sidebar-splitter {
-    display: none;
+    display: none
 }
